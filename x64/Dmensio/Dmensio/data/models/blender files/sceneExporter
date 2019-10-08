@@ -1,0 +1,12 @@
+import bpy
+
+import os
+file = open(os.path.splitext(bpy.data.filepath)[0] + ".txt", 'w')
+
+for obj in bpy.data.objects:
+    if("Cube" in obj.name):
+        file.write("%s \n p %f  %f  %f \n s %f  %f  %f \n t %d \n" % (obj.name, obj.location.x, obj.location.z, obj.location.y, obj.scale.x, obj.scale.z, obj.scale.y, obj.get('plane')))
+
+print(bpy.data.scenes.keys())
+
+file.close()

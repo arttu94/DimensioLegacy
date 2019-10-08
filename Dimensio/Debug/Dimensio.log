@@ -1,0 +1,97 @@
+﻿Build started 26/01/2016 02:49:16 p. m..
+     1>Project "C:\Users\Arturo\documents\visual studio 2015\Projects\Dimensio\Dimensio\Dimensio.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt colorshaderclass.cpp d3dclass.cpp fontshaderclass.cpp graphicsclass.cpp legomodelclass.cpp lightshaderclass.cpp main.cpp systemclass.cpp textclass.cpp textureshaderclass.cpp
+         textureshaderclass.cpp
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textureshaderclass.h(28): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textureshaderclass.h(35): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textureshaderclass.cpp(42): error C2719: 'worldMatrix': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textureshaderclass.cpp(42): error C2719: 'viewMatrix': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textureshaderclass.cpp(42): error C2719: 'projectionMatrix': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textureshaderclass.cpp(244): error C2719: 'worldMatrix': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textureshaderclass.cpp(244): error C2719: 'viewMatrix': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textureshaderclass.cpp(244): error C2719: 'projectionMatrix': formal parameter with requested alignment of 16 won't be aligned
+         textclass.cpp
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\fontshaderclass.h(33): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\fontshaderclass.h(40): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textclass.h(28): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textclass.h(30): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textclass.h(38): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textclass.cpp(59): error C2719: 'baseViewMatrix': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textclass.cpp(138): error C2719: 'worldMatrix': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textclass.cpp(138): error C2719: 'orthoMatrix': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textclass.cpp(351): error C2719: 'worldMatrix': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textclass.cpp(351): error C2719: 'orthoMatrix': formal parameter with requested alignment of 16 won't be aligned
+         systemclass.cpp
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\lightshaderclass.h(44): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\lightshaderclass.h(52): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textureshaderclass.h(28): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textureshaderclass.h(35): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\fontshaderclass.h(33): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\fontshaderclass.h(40): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textclass.h(28): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textclass.h(30): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textclass.h(38): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+         main.cpp
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\lightshaderclass.h(44): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\lightshaderclass.h(52): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textureshaderclass.h(28): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textureshaderclass.h(35): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\fontshaderclass.h(33): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\fontshaderclass.h(40): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textclass.h(28): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textclass.h(30): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textclass.h(38): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+         lightshaderclass.cpp
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\lightshaderclass.h(44): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\lightshaderclass.h(52): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\lightshaderclass.cpp(45): error C2719: 'worldMatrix': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\lightshaderclass.cpp(45): error C2719: 'viewMatrix': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\lightshaderclass.cpp(45): error C2719: 'projectionMatrix': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\lightshaderclass.cpp(281): error C2719: 'worldMatrix': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\lightshaderclass.cpp(281): error C2719: 'viewMatrix': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\lightshaderclass.cpp(281): error C2719: 'projectionMatrix': formal parameter with requested alignment of 16 won't be aligned
+         legomodelclass.cpp
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\lightshaderclass.h(44): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\lightshaderclass.h(52): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+         graphicsclass.cpp
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\lightshaderclass.h(44): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\lightshaderclass.h(52): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textureshaderclass.h(28): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textureshaderclass.h(35): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\fontshaderclass.h(33): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\fontshaderclass.h(40): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textclass.h(28): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textclass.h(30): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\textclass.h(38): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\graphicsclass.cpp(30): warning C4316: 'D3DClass': object allocated on the heap may not be aligned 16
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\graphicsclass.cpp(43): warning C4316: 'CameraClass': object allocated on the heap may not be aligned 16
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\graphicsclass.cpp(125): warning C4316: 'TextClass': object allocated on the heap may not be aligned 16
+         fontshaderclass.cpp
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\fontshaderclass.h(33): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\fontshaderclass.h(40): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\fontshaderclass.cpp(52): error C2719: 'worldMatrix': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\fontshaderclass.cpp(52): error C2719: 'viewMatrix': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\fontshaderclass.cpp(52): error C2719: 'projectionMatrix': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\fontshaderclass.cpp(320): error C2719: 'worldMatrix': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\fontshaderclass.cpp(320): error C2719: 'viewMatrix': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\fontshaderclass.cpp(320): error C2719: 'projectionMatrix': formal parameter with requested alignment of 16 won't be aligned
+         d3dclass.cpp
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\d3dclass.cpp(89): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\d3dclass.cpp(109): error C2664: 'errno_t wcstombs_s(size_t *,char *,size_t,const wchar_t *,size_t)': cannot convert argument 1 from 'unsigned __int64 *' to 'size_t *'
+         c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\d3dclass.cpp(109): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         colorshaderclass.cpp
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\colorshaderclass.h(28): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\colorshaderclass.h(35): error C2719: 'unnamed-parameter': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\colorshaderclass.cpp(40): error C2719: 'worldMatrix': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\colorshaderclass.cpp(40): error C2719: 'viewMatrix': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\colorshaderclass.cpp(40): error C2719: 'projectionMatrix': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\colorshaderclass.cpp(217): error C2719: 'worldMatrix': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\colorshaderclass.cpp(217): error C2719: 'viewMatrix': formal parameter with requested alignment of 16 won't be aligned
+     1>c:\users\arturo\documents\visual studio 2015\projects\dimensio\dimensio\colorshaderclass.cpp(217): error C2719: 'projectionMatrix': formal parameter with requested alignment of 16 won't be aligned
+         Generating Code...
+     1>Done Building Project "C:\Users\Arturo\documents\visual studio 2015\Projects\Dimensio\Dimensio\Dimensio.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:14.19

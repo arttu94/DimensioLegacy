@@ -1,0 +1,99 @@
+Texture2D shaderTexture;
+SamplerState SampleType;
+
+cbuffer LightBuffer
+{
+    float4 ambientColor;
+    float4 diffuseColor;
+    float3 lightDirection;
+	float dontTouch;
+};
+
+cbuffer DataBuffer
+{
+	float extraParameter1;
+	float transparent;
+	float edge;
+	float colored;
+};
+
+struct PixelInputType
+{
+    float4 position : SV_POSITION;
+    float2 tex : TEXCOORD0;
+    float3 normal : NORMAL;
+};
+
+float4 LightPixelShader(PixelInputType input) : SV_TARGET
+{
+    float4 textureColor;
+    float3 lightDir;
+    float lightIntensity;
+    float4 color;
+
+    // Sample the pixel color from the texture using the sampler at this texture coordinate location.
+    textureColor = shaderTexture.Sample(SampleType, input.tex);
+
+    // Set the default output color to the ambient light value for all pixels.
+    color = ambientColor;
+
+    // Invert the light direction for calculations.
+    lightDir = -lightDirection;
+
+    // Calculate the amount of light on this pixel.
+    lightIntensity = saturate(dot(input.normal, lightDir));
+
+	if(lightIntensity > 0.6f)
+	{
+		//brigth
+		lightIntensity = 0.7f;
+	}
+	if(lightIntensity < 0.6f && lightIntensity > 0.3f)
+	{
+		//mid light value
+		lightIntensity = 0.3f;
+	}
+	if(lightIntensity < 0.3f)
+	{
+		//dark
+		lightIntensity = 0.1f;
+	}
+
+    if(lightIntensity > 0.0f)
+    {
+        // Determine the final diffuse color based on the diffuse color and the amount of light intensity.
+        color += (diffuseColor * lightIntensity);
+    }
+
+	if(edge == 1)
+	{
+		color = color * float4(0.0f, 0.0f, 0.0f, 1.0f);
+	}
+	else if(colored != 0)
+	{
+		 color = color * textureColor;
+	}
+	else
+	{
+		color = color * float4(0.0f, 0.0f, 0.0f, 1.0f);
+	}
+
+	if(colored == 0)
+	{
+		color = (color.x + color.y + color.z) / 3;
+	}
+
+	if(transparent == 1)
+	{
+		color.w = 0.2f;
+	}
+	else
+	{
+		color.w = 1.0f;
+	}
+
+    
+	color = saturate(color);
+
+    return color;
+}

@@ -1,0 +1,37 @@
+﻿Build started 17/02/2016 02:07:32 p. m..
+     1>Project "C:\Users\Arturo\Documents\Visual Studio 2015\Projects\Dimensio\Dimensio\Dimensio.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt bitmapclass.cpp
+         bitmapclass.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Arturo\Documents\Visual Studio 2015\Projects\Dimensio\x64\Debug\Dimensio.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Arturo\Documents\Visual Studio 2015\Projects\Dimensio\x64\Debug\Dimensio.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Arturo\Documents\Visual Studio 2015\Projects\Dimensio\x64\Debug\Dimensio.lib" /MACHINE:X64 x64\Debug\basicmodelclass.obj
+         x64\Debug\bitmapclass.obj
+         x64\Debug\cameraclass.obj
+         x64\Debug\celmodelclass.obj
+         x64\Debug\celshaderclass.obj
+         x64\Debug\colorshaderclass.obj
+         x64\Debug\cpuclass.obj
+         x64\Debug\d3dclass.obj
+         x64\Debug\fontclass.obj
+         x64\Debug\fontshaderclass.obj
+         x64\Debug\fpsclass.obj
+         x64\Debug\Gamepad.obj
+         x64\Debug\scenemanagerclass.obj
+         x64\Debug\inputclass.obj
+         x64\Debug\lightclass.obj
+         x64\Debug\lightshaderclass.obj
+         x64\Debug\main.obj
+         x64\Debug\modelclass.obj
+         x64\Debug\physicsclass.obj
+         x64\Debug\soundclass.obj
+         x64\Debug\systemclass.obj
+         x64\Debug\textclass.obj
+         x64\Debug\textureclass.obj
+         x64\Debug\textureshaderclass.obj
+         x64\Debug\timerclass.obj
+         Dimensio.vcxproj -> C:\Users\Arturo\Documents\Visual Studio 2015\Projects\Dimensio\x64\Debug\Dimensio.exe
+     1>Done Building Project "C:\Users\Arturo\Documents\Visual Studio 2015\Projects\Dimensio\Dimensio\Dimensio.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.54

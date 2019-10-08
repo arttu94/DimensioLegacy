@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{50058663-46dc-467f-8da8-efc1361ace29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{d311fd37-23ee-4932-8154-654b6a88dcef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render">
+      <UniqueIdentifier>{9dd7d0ab-2527-469b-a3f4-e5773c6f587e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{353d34e5-7dca-4ef6-bfd0-2e2f13cb3333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\models">
+      <UniqueIdentifier>{d332a8d2-557c-4f84-94a0-7b49a7da2aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\music">
+      <UniqueIdentifier>{87d31094-92b3-411b-8795-9d18d95f20ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\textures">
+      <UniqueIdentifier>{a11312bf-4008-425f-a83f-b32f25e8a84d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\shaders">
+      <UniqueIdentifier>{011d1e16-c8a7-4ea9-b63a-ff8fdc2c88f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\timer">
+      <UniqueIdentifier>{0b1b85ae-c74b-4f17-8ea7-53c46052f8d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\model">
+      <UniqueIdentifier>{b8471bb1-6220-4492-b2bb-469e6bfc5683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render\material">
+      <UniqueIdentifier>{79cf86de-beeb-4218-8dca-8a7dc4feddb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render\text">
+      <UniqueIdentifier>{fc6ce7b9-0e7c-406c-9183-d147b508e359}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\shaders\cel.ps">
+      <Filter>data\shaders</Filter>
+    </None>
+    <None Include="data\shaders\cel.vs">
+      <Filter>data\shaders</Filter>
+    </None>
+    <None Include="data\shaders\font.ps">
+      <Filter>data\shaders</Filter>
+    </None>
+    <None Include="data\shaders\font.vs">
+      <Filter>data\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="data\texture\bear.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="data\texture\bear.tga">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="data\texture\blue.tga">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="data\texture\brown.tga">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="data\texture\font.dds">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="data\texture\font.tga">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="data\texture\red.tga">
+      <Filter>data\textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core\cpu.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\fps.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Gamepad.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\input.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\main.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\sound.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\system.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\scenemanager.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\model\bitmap.cpp">
+      <Filter>scene\model</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\model\celmodel.cpp">
+      <Filter>scene\model</Filter>
+    </ClCompile>
+    <ClCompile Include="render\camera.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\light.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\materials\celshader.cpp">
+      <Filter>render\material</Filter>
+    </ClCompile>
+    <ClCompile Include="render\materials\texture.cpp">
+      <Filter>render\material</Filter>
+    </ClCompile>
+    <ClCompile Include="render\text\font.cpp">
+      <Filter>render\text</Filter>
+    </ClCompile>
+    <ClCompile Include="render\text\fontshader.cpp">
+      <Filter>render\text</Filter>
+    </ClCompile>
+    <ClCompile Include="render\text\text.cpp">
+      <Filter>render\text</Filter>
+    </ClCompile>
+    <ClCompile Include="core\timer\timer.cpp">
+      <Filter>core\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\player.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\cube.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\sphere.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\entity.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\scene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\cpu.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\fps.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Gamepad.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\input.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\sound.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\system.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\scenemanager.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\model\bitmap.h">
+      <Filter>scene\model</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\model\celmodel.h">
+      <Filter>scene\model</Filter>
+    </ClInclude>
+    <ClInclude Include="render\camera.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\light.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\materials\celshader.h">
+      <Filter>render\material</Filter>
+    </ClInclude>
+    <ClInclude Include="render\materials\texture.h">
+      <Filter>render\material</Filter>
+    </ClInclude>
+    <ClInclude Include="render\text\font.h">
+      <Filter>render\text</Filter>
+    </ClInclude>
+    <ClInclude Include="render\text\fontshader.h">
+      <Filter>render\text</Filter>
+    </ClInclude>
+    <ClInclude Include="render\text\text.h">
+      <Filter>render\text</Filter>
+    </ClInclude>
+    <ClInclude Include="core\timer\timer.h">
+      <Filter>core\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\player.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\cube.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\sphere.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\entity.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\sceneloader.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\scene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

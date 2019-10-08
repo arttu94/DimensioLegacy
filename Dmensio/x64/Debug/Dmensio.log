@@ -1,0 +1,38 @@
+﻿  scene.cpp
+c:\users\arturo\documents\visual studio 2015\projects\dimensio\dmensio\core\gamepad.h(7): warning C4005: 'XINPUT_GAMEPAD_DPAD_UP': macro redefinition
+  c:\program files (x86)\windows kits\8.1\include\um\xinput.h(81): note: see previous definition of 'XINPUT_GAMEPAD_DPAD_UP'
+c:\users\arturo\documents\visual studio 2015\projects\dimensio\dmensio\core\gamepad.h(8): warning C4005: 'XINPUT_GAMEPAD_DPAD_DOWN': macro redefinition
+  c:\program files (x86)\windows kits\8.1\include\um\xinput.h(82): note: see previous definition of 'XINPUT_GAMEPAD_DPAD_DOWN'
+c:\users\arturo\documents\visual studio 2015\projects\dimensio\dmensio\core\gamepad.h(9): warning C4005: 'XINPUT_GAMEPAD_DPAD_LEFT': macro redefinition
+  c:\program files (x86)\windows kits\8.1\include\um\xinput.h(83): note: see previous definition of 'XINPUT_GAMEPAD_DPAD_LEFT'
+c:\users\arturo\documents\visual studio 2015\projects\dimensio\dmensio\core\gamepad.h(10): warning C4005: 'XINPUT_GAMEPAD_DPAD_RIGHT': macro redefinition
+  c:\program files (x86)\windows kits\8.1\include\um\xinput.h(84): note: see previous definition of 'XINPUT_GAMEPAD_DPAD_RIGHT'
+c:\users\arturo\documents\visual studio 2015\projects\dimensio\dmensio\core\gamepad.h(11): warning C4005: 'XINPUT_GAMEPAD_START': macro redefinition
+  c:\program files (x86)\windows kits\8.1\include\um\xinput.h(85): note: see previous definition of 'XINPUT_GAMEPAD_START'
+c:\users\arturo\documents\visual studio 2015\projects\dimensio\dmensio\core\gamepad.h(12): warning C4005: 'XINPUT_GAMEPAD_BACK': macro redefinition
+  c:\program files (x86)\windows kits\8.1\include\um\xinput.h(86): note: see previous definition of 'XINPUT_GAMEPAD_BACK'
+c:\users\arturo\documents\visual studio 2015\projects\dimensio\dmensio\core\gamepad.h(13): warning C4005: 'XINPUT_GAMEPAD_LEFT_THUMB': macro redefinition
+  c:\program files (x86)\windows kits\8.1\include\um\xinput.h(87): note: see previous definition of 'XINPUT_GAMEPAD_LEFT_THUMB'
+c:\users\arturo\documents\visual studio 2015\projects\dimensio\dmensio\core\gamepad.h(14): warning C4005: 'XINPUT_GAMEPAD_RIGHT_THUMB': macro redefinition
+  c:\program files (x86)\windows kits\8.1\include\um\xinput.h(88): note: see previous definition of 'XINPUT_GAMEPAD_RIGHT_THUMB'
+c:\users\arturo\documents\visual studio 2015\projects\dimensio\dmensio\scene\sceneloader.h(18): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\arturo\documents\visual studio 2015\projects\dimensio\dmensio\scene\sceneloader.h(24): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\arturo\documents\visual studio 2015\projects\dimensio\dmensio\scene\sceneloader.h(29): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\users\arturo\documents\visual studio 2015\projects\dimensio\dmensio\scene\sceneloader.h(50): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\arturo\documents\visual studio 2015\projects\dimensio\dmensio\scene\sceneloader.h(56): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\arturo\documents\visual studio 2015\projects\dimensio\dmensio\scene\sceneloader.h(61): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\users\arturo\documents\visual studio 2015\projects\dimensio\dmensio\scene\sceneloader.h(69): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\users\arturo\documents\visual studio 2015\projects\dimensio\dmensio\scene\sceneloader.h(77): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\users\arturo\documents\visual studio 2015\projects\dimensio\dmensio\scene\sceneloader.h(84): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\users\arturo\documents\visual studio 2015\projects\dimensio\dmensio\scene\sceneloader.h(91): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+  Dmensio.vcxproj -> C:\Users\Arturo\Documents\Visual Studio 2015\Projects\Dimensio\x64\Debug\Dmensio.exe
